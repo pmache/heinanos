@@ -21,12 +21,12 @@ Stay tuned!
 
 # How to test HeinanOS builds?
 
--Download a software called Virtual Box
--Create a new virtual machine
--Set it as Other/Unknown operating system
--Add the image you downloaded in the CD/DVD tab
--Restart the virtual machine
--Enjoy HeinanOS! :-)
+- Download a software called Virtual Box
+- Create a new virtual machine
+- Set it as Other/Unknown operating system
+- Add the image you downloaded in the CD/DVD tab
+- Restart the virtual machine
+- Enjoy HeinanOS! :-)
 
 
 Thank you very much!
