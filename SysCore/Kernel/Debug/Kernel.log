@@ -1,0 +1,38 @@
+﻿Build started 28/05/2010 22:57:29.
+     1>Project "C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Kernel\Kernel.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Kernel.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\MSVC2010\VC\bin\CL.exe /c /I..\Include\ /I..\Keyboard /I..\FloppyDisk /nologo /W4 /WX- /O2 /Oy /D ARCH_X86 /X /GF- /Gm- /MD /Zp1 /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp /Oy 
+         main.cpp
+     1>main.cpp(96): warning C4244: 'argument' : conversion from 'uint64_t' to 'size_t', possible loss of data
+     1>main.cpp(341): warning C4127: conditional expression is constant
+     1>c:\users\heinan\documents\visual studio 2005\heinanos\syscore\kernel\main.cpp(380): warning C4702: unreachable code
+       ResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Debug\Kernel.exe) does not match the Linker's OutputFile property value (A:\KRNL32.EXE). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Kernel) does not match the Linker's OutputFile property value (KRNL32). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\MSVC2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"A:\KRNL32.EXE" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Lib\ /LIBPATH:..\debug\ keyboard.lib floppydisk.lib fat12.lib /NODEFAULTLIB /MANIFEST:NO /PDB:"C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Debug\Kernel.pdb" /MAP:"Kernel.map" /SUBSYSTEM:NATIVE /Driver /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"kernel_entry" /BASE:"0xC0000000" /FIXED:NO /IMPLIB:"C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Debug\Kernel.lib" /MACHINE:X86 Debug\Resource.res
+         Debug\entry.obj
+         Debug\main.obj
+         Debug\DebugDisplay.obj
+         Debug\exception.obj
+         Debug\fsys.obj
+         Debug\mmngr_phys.obj
+         Debug\mmngr_virtual.obj
+         Debug\panic.obj
+         Debug\vmmngr_pde.obj
+         Debug\vmmngr_pte.obj
+         "C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Debug\Hal.lib"
+         "C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Debug\Lib.lib" /ALIGN:512 
+     1>Lib.lib(cstd.obj) : warning LNK4254: section '.CRT' (40000040) merged into '.data' (C0000040) with different attributes
+         Kernel.vcxproj -> C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Debug\Kernel.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Kernel.unsuccessfulbuild".
+         Touching "Debug\Kernel.lastbuildstate".
+     1>Done Building Project "C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Kernel\Kernel.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.55

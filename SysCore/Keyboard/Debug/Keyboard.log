@@ -1,0 +1,27 @@
+﻿Build started 22/05/2010 21:27:06.
+     1>Project "C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Keyboard\Keyboard.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Keyboard.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\MSVC2010\VC\bin\CL.exe /c /I..\Include\ /Zi /nologo /W4 /WX- /O2 /Oy /D ARCH_X86 /X /Gm- /EHsc /MD /Zp1 /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt kybrd.cpp
+         kybrd.cpp
+     1>C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Include\ctype.h(39): warning C4005: 'isascii' : macro redefinition
+                 C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Include\ctype.h(28) : see previous definition of 'isascii'
+     1>kybrd.cpp(260): warning C4127: conditional expression is constant
+     1>kybrd.cpp(277): warning C4127: conditional expression is constant
+     1>kybrd.cpp(485): warning C4806: '|' : unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+     1>kybrd.cpp(485): warning C4806: '&' : unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+     1>kybrd.cpp(486): warning C4806: '|' : unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+     1>kybrd.cpp(486): warning C4806: '&' : unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+     1>kybrd.cpp(645): warning C4127: conditional expression is constant
+       Lib:
+         D:\MSVC2010\VC\bin\Lib.exe /OUT:"C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Debug\Keyboard.lib" /NOLOGO Debug\kybrd.obj
+         Keyboard.vcxproj -> C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Debug\Keyboard.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\Keyboard.unsuccessfulbuild".
+         Touching "Debug\Keyboard.lastbuildstate".
+     1>Done Building Project "C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Keyboard\Keyboard.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.51

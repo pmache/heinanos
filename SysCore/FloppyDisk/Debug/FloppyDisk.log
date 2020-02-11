@@ -1,0 +1,18 @@
+﻿Build started 22/05/2010 21:27:10.
+     1>Project "C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\FloppyDisk\FloppyDisk.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\FloppyDisk.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\MSVC2010\VC\bin\CL.exe /c /I..\Include\ /Zi /nologo /W4 /WX- /Ox /Oy /D ARCH_X86 /X /Gm- /EHsc /MD /Zp1 /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /FAs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt flpydsk.cpp
+         flpydsk.cpp
+       Lib:
+         D:\MSVC2010\VC\bin\Lib.exe /OUT:"C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Debug\FloppyDisk.lib" /NOLOGO Debug\flpydsk.obj
+         FloppyDisk.vcxproj -> C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Debug\FloppyDisk.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\FloppyDisk.unsuccessfulbuild".
+         Touching "Debug\FloppyDisk.lastbuildstate".
+     1>Done Building Project "C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\FloppyDisk\FloppyDisk.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.65

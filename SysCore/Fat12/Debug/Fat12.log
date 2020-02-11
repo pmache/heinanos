@@ -1,0 +1,20 @@
+﻿Build started 28/05/2010 22:41:28.
+     1>Project "C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Fat12\Fat12.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\HTFS.unsuccessfulbuild".
+       ClCompile:
+         D:\MSVC2010\VC\bin\CL.exe /c /I"C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Kernel" /I"C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Include" /Zi /nologo /W1 /WX- /O2 /Oy- /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt HTFS.cpp
+         HTFS.cpp
+     1>C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Include\ctype.h(39): warning C4005: 'isascii' : macro redefinition
+                 C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Include\ctype.h(28) : see previous definition of 'isascii'
+       Lib:
+         D:\MSVC2010\VC\bin\Lib.exe /OUT:"C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Debug\HTFS.lib" /NOLOGO Debug\HTFS.obj
+         Fat12.vcxproj -> C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Debug\HTFS.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\HTFS.unsuccessfulbuild".
+         Touching "Debug\HTFS.lastbuildstate".
+     1>Done Building Project "C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Fat12\Fat12.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.20

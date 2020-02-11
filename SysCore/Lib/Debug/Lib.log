@@ -1,0 +1,28 @@
+﻿Build started 22/05/2010 21:27:06.
+     1>Project "C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Lib\Lib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Lib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\MSVC2010\VC\bin\CL.exe /c /I..\Include\ /Zi /nologo /W4 /WX- /O2 /Oy /D ARCH_X86 /X /Gm- /MD /Zp1 /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cstd.cpp stdio.cpp string.cpp
+         cstd.cpp
+         stdio.cpp
+     1>C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Include\ctype.h(39): warning C4005: 'isascii' : macro redefinition
+                 C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Include\ctype.h(28) : see previous definition of 'isascii'
+     1>stdio.cpp(137): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>stdio.cpp(161): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>stdio.cpp(224): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         string.cpp
+         Generating Code...
+       Lib:
+         D:\MSVC2010\VC\bin\Lib.exe /OUT:"C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Debug\Lib.lib" /NOLOGO Debug\cstd.obj
+         Debug\stdio.obj
+         Debug\string.obj
+         Lib.vcxproj -> C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Debug\Lib.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\Lib.unsuccessfulbuild".
+         Touching "Debug\Lib.lastbuildstate".
+     1>Done Building Project "C:\Users\Heinan\Documents\Visual Studio 2005\HeinanOS\SysCore\Lib\Lib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.51
